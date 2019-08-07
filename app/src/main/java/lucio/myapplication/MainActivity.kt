@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun resetDice(){
-
+        diceImage.setImageResource(R.drawable.empty_dice)
     }
     private fun rollDice(){
         val randomInt = Random().nextInt(6) + 1
